@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.spec.bak
+*.exe
+*.msi
+
+# App runtime data (never commit user logs / backups)
+logs/
+history.jsonl
+settings.ini
+backups/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.spec

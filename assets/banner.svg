@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1a2e"/>
+      <stop offset="0.55" stop-color="#221a44"/>
+      <stop offset="1" stop-color="#12121f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a970ff"/>
+      <stop offset="1" stop-color="#00d4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1050" cy="60" r="180" fill="#9146ff" opacity="0.10"/>
+  <circle cx="140" cy="300" r="160" fill="#00d4ff" opacity="0.07"/>
+  <g transform="translate(64,66) scale(1.35)">
+    <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#accent)"/>
+    <path d="M36 30 H94 V77 H72 L54 97 V77 H36 Z" fill="#fff"/>
+    <rect x="50" y="42" width="8" height="23" rx="3" fill="#9146ff"/>
+    <rect x="72" y="42" width="8" height="23" rx="3" fill="#9146ff"/>
+  </g>
+  <text x="290" y="145" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="74" font-weight="700">TwitchFix</text>
+  <text x="294" y="196" fill="#b9c4e8" font-family="Segoe UI, Arial, sans-serif" font-size="26">Diagnose &amp; repair your Twitch connection — in one click.</text>
+  <text x="294" y="238" fill="#9146ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">13 checks  •  9 auto-fixes  •  Windows 10/11</text>
+</svg>

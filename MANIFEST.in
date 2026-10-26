@@ -1,0 +1,5 @@
+include README.md LICENSE CONTRIBUTING.md CHANGELOG.md requirements.txt build.bat build.py
+recursive-include src/ui/styles *.qss
+recursive-include assets *.png *.ico *.svg *.gif
+recursive-include scripts *.py
+recursive-include .github/workflows *.yml
