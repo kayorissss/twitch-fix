@@ -18,3 +18,4 @@ All notable changes to TwitchFix are documented here. Format follows [Keep a Cha
 ### Notes
 - Windows 10/11 is the target platform; Windows-specific checks are skipped on other systems.
 - The app is not affiliated with Twitch Interactive, Inc.
+- Release `v1.0.0` ships a 39.3 MB (41,259,969 bytes) one-file `TwitchFix.exe` built by GitHub Actions.

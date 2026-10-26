@@ -169,7 +169,7 @@ TwitchFix/
 
 ### FAQ
 
-**Насколько велик .exe?** PyQt6 onefile обычно даёт 50–70 МБ. `build.py` уже исключает неиспользуемые Qt-модули; чтобы приблизиться к 40 МБ, укажите `--upx-dir` (UPX сжимает дополнительно) и используйте Python 3.11 x64. Это ограничение Qt, а не кода приложения.
+**Насколько велик .exe?** Релиз `v1.0.0` — **39,3 МБ** (41 259 969 байт), то есть укладывается в целевые 30–40 МБ. Это достигается исключением неиспользуемых Qt-модулей в `build.py`; при желании флаг `--upx-dir` с UPX сожмёт файл ещё сильше. Onefile-сборка без таких исключений обычно занимает 50–70 МБ.
 
 **Антивирус ругается на .exe.** PyInstaller-сборки часто попадают под эвристики. Соберите из исходников сами или добавьте исключение; исходный код полностью открыт.
 
@@ -232,7 +232,7 @@ python -m pytest -q        # 44 tests
 
 ### FAQ (EN)
 
-**EXE size:** PyQt6 one-file builds are typically 50–70 MB; `build.py` excludes unused Qt modules and supports `--upx-dir` for UPX compression to get closer to ~40 MB.
+**EXE size:** the `v1.0.0` release is **39.3 MB** (41,259,969 bytes) — within the 30–40 MB target — thanks to the unused Qt modules excluded in `build.py`. `--upx-dir` (UPX) can shrink it further.
 **Antivirus false positive:** common for PyInstaller binaries; build from source or whitelist the file.
 **Non-Windows:** the diagnostic core is cross-platform and tested on Linux; Windows-specific checks/fixes are skipped there.
 **Logs/backups:** `%LOCALAPPDATA%\TwitchFix\logs\` and `...\backups\`.
